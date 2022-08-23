@@ -21,6 +21,5 @@ vector < int > inOrderTrav(node * curr) {
       s.pop();
       curr = curr -> right;
     }
-  }
-  return inOrder;
+  }return inOrder;
 }
